@@ -1,5 +1,5 @@
 import YTLogo from '../images/YTLogo.png'
-import notification from '../images/notification.png'
+import notification from '../images/notification.svg'
 import video from '../images/video.png'
 import '../styles/navbar.css'
 

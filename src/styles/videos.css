@@ -1,0 +1,48 @@
+.videos{
+    margin-top: 40px;
+}
+
+.videos .title{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0px;
+}
+.videoData img {
+    width: 360px;
+    height: 202px;
+    border-radius: 10px;
+}
+.videos h1{
+    font-family: monospace;
+    margin: 0px;
+    font-size: 40px;
+}
+.line{
+    height: 4px;
+    width: 150px;
+    background-color: black;
+}
+
+.videoData {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.video {
+    width: 25%;
+    margin: 14px 0px;
+}
+
+.video h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.video p , .video a {
+    cursor: pointer;
+    color: #606060;
+    margin: 0px;
+}

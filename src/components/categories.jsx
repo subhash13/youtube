@@ -11,6 +11,8 @@ const Categories = () => {
         { link: "Food" },
         { link: "Bollywood" },
         { link: "Kids" },
+        { link: "Anime" },
+        { link: "Hollywood" },
         { link: "Recently uploaded" }
     ]
     return (
