@@ -2,6 +2,7 @@ import YTLogo from '../images/YTLogo.png'
 import notification from '../images/notification.svg'
 import video from '../images/video.png'
 import '../styles/navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -13,11 +14,9 @@ function Navbar() {
                 <input type="text" placeholder='Search' />
             </div>
             <div className="userOptions">
-                <div className="notification">
-                    <img width={35} src={video} alt="" />
-                </div>
-                <div className="video">
-                    <img width={35} src={notification} alt="" />
+                <div className="navLinks">
+                    <Link to="/">Home</Link>
+                    <Link to="/add-video">Add Video</Link>
                 </div>
                 <div className="profile">
                     <h4>S</h4>
